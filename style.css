@@ -1,0 +1,133 @@
+/**Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+**/
+
+
+.attribution { font-size: 11px; text-align: center; 
+  color:#fff;
+  margin-top:1rem;
+}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color:hsl(216, 12%, 8%);
+  margin:3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height:100vh;
+  font-family: "Overpass", sans-serif;
+}
+
+.main-container,  .thank-you{
+  background: hsl(213, 19%, 18%);
+  border-radius:8px;
+  padding:15px;
+}
+p{
+  line-height:1.5rem;
+  font-weight:400;
+}
+.main-container img{
+  border-radius: 50%;
+  background: hsl(213, 20%, 22%);
+  padding:0.5rem;
+}
+.main-container h1{
+  color:white;
+  margin: 2rem 0 1rem;
+  font-weight: 700;
+}
+.main-container p{
+  color:hsl(217, 12%, 63%);
+  margin-bottom:1rem;
+}
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1rem;
+  margin-bottom:1.5rem;
+}
+.main-container ul li button{
+  width:3rem;
+  height:3rem;
+  border: none;
+  background: hsl(213, 20%, 22%);
+  color:#fff;
+  padding-top:0.3rem;
+  border-radius: 50%;
+  cursor:pointer;
+  transition: 0.3s;
+}
+.main-container ul li button:hover{
+  background: hsl(25, 97%, 53%);
+}
+.main-container ul li button:focus{
+  background: hsl(217, 12%, 63%);
+}
+.submit{
+  width:100%;
+  color:white;
+  background: hsl(25, 97%, 53%);
+  border:none;
+  border-radius: 30px;
+  padding:0.5rem 0 0.4rem;
+  margin-bottom:0.4rem;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight:700;
+}
+.submit:hover{
+  color:hsl(25, 97%, 53%);
+  background: #fff;
+}
+.thank-you{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+}
+.hidden{
+  display: none;
+}
+.thank-you img{
+  display: block;
+  margin: 0 auto 2rem;
+}
+.thank-you p.grey{
+  background: hsl(213, 20%, 22%);
+  border-radius: 15px;
+  padding:5px;
+  margin-bottom:2rem;
+  color:hsl(25, 97%, 53%);
+}
+.thank-you h1{
+  color:#fff;
+  margin-bottom:1rem;
+}
+
+.thank-you p{
+  color:hsl(217, 12%, 63%);
+  margin-bottom:2rem;
+}
+#rating{
+  color:#fff;
+}
